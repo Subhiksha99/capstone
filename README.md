@@ -1,6 +1,6 @@
 Casting Agency Project
 Developed endpoints for performing CURD operation for movies and actors data model
-Deployed url: ""
+Deployed url: "https://capstone-4r5f.onrender.com/"
 
 Project setup in Local
 Create a virtual environment
