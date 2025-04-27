@@ -1,0 +1,553 @@
+{
+	"info": {
+		"_postman_id": "60f009d4-8bbd-47ae-a6bb-6f0ebaca498d",
+		"name": "Casting Agency",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "30016488"
+	},
+	"item": [
+		{
+			"name": "Casting Assistant",
+			"item": [
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjVjMTkzMTIzMDNjMzFkMjQ1YzAiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTQ1NywiZXhwIjoxNzQ1MDY3ODU3LCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.uDbEfhj2SMBYm_VtQJNCpRNNt0Lt6m4u488TmRDV67SKitqNWHUEyD33MZda_G3VRaw3NONYp8CgEuUF6-eO0yImuctoxye59IE_aqKSjdXoiuCIB5Dg2m7nW-QUQppICrg14KYLrqEgVHW9bI3G_tLhZeSD_aQn1JcAxs9sr5l7fEI1QupFIhPT6gHD_ZW4ZpQgHOWL_yxD49vrjewlgtjKecPaoEcy3XiI4Fq1NMp7LRFCqJbL-YsEH5u112R8ErYO3LqDFxiYoxo1m4PnMpFB-7P83AHFCvb_zqMp9hhUJnSvr_kjIDoI9UwaSd5HE2yls6mYnv3QpD4q2Tdxhg"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{host}}/actors"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjVjMTkzMTIzMDNjMzFkMjQ1YzAiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTQ1NywiZXhwIjoxNzQ1MDY3ODU3LCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.uDbEfhj2SMBYm_VtQJNCpRNNt0Lt6m4u488TmRDV67SKitqNWHUEyD33MZda_G3VRaw3NONYp8CgEuUF6-eO0yImuctoxye59IE_aqKSjdXoiuCIB5Dg2m7nW-QUQppICrg14KYLrqEgVHW9bI3G_tLhZeSD_aQn1JcAxs9sr5l7fEI1QupFIhPT6gHD_ZW4ZpQgHOWL_yxD49vrjewlgtjKecPaoEcy3XiI4Fq1NMp7LRFCqJbL-YsEH5u112R8ErYO3LqDFxiYoxo1m4PnMpFB-7P83AHFCvb_zqMp9hhUJnSvr_kjIDoI9UwaSd5HE2yls6mYnv3QpD4q2Tdxhg"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{host}}/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjVjMTkzMTIzMDNjMzFkMjQ1YzAiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTQ1NywiZXhwIjoxNzQ1MDY3ODU3LCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.uDbEfhj2SMBYm_VtQJNCpRNNt0Lt6m4u488TmRDV67SKitqNWHUEyD33MZda_G3VRaw3NONYp8CgEuUF6-eO0yImuctoxye59IE_aqKSjdXoiuCIB5Dg2m7nW-QUQppICrg14KYLrqEgVHW9bI3G_tLhZeSD_aQn1JcAxs9sr5l7fEI1QupFIhPT6gHD_ZW4ZpQgHOWL_yxD49vrjewlgtjKecPaoEcy3XiI4Fq1NMp7LRFCqJbL-YsEH5u112R8ErYO3LqDFxiYoxo1m4PnMpFB-7P83AHFCvb_zqMp9hhUJnSvr_kjIDoI9UwaSd5HE2yls6mYnv3QpD4q2Tdxhg"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "\"GBU\"",
+									"type": "text"
+								},
+								{
+									"key": "release_date",
+									"value": "\"2025-04-17\"",
+									"type": "text"
+								}
+							]
+						},
+						"url": "{{host}}/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjVjMTkzMTIzMDNjMzFkMjQ1YzAiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTQ1NywiZXhwIjoxNzQ1MDY3ODU3LCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.uDbEfhj2SMBYm_VtQJNCpRNNt0Lt6m4u488TmRDV67SKitqNWHUEyD33MZda_G3VRaw3NONYp8CgEuUF6-eO0yImuctoxye59IE_aqKSjdXoiuCIB5Dg2m7nW-QUQppICrg14KYLrqEgVHW9bI3G_tLhZeSD_aQn1JcAxs9sr5l7fEI1QupFIhPT6gHD_ZW4ZpQgHOWL_yxD49vrjewlgtjKecPaoEcy3XiI4Fq1NMp7LRFCqJbL-YsEH5u112R8ErYO3LqDFxiYoxo1m4PnMpFB-7P83AHFCvb_zqMp9hhUJnSvr_kjIDoI9UwaSd5HE2yls6mYnv3QpD4q2Tdxhg"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors?name=Annie&age=45&gender=M",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors"
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "Annie"
+								},
+								{
+									"key": "age",
+									"value": "45"
+								},
+								{
+									"key": "gender",
+									"value": "M"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjVjMTkzMTIzMDNjMzFkMjQ1YzAiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTQ1NywiZXhwIjoxNzQ1MDY3ODU3LCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.uDbEfhj2SMBYm_VtQJNCpRNNt0Lt6m4u488TmRDV67SKitqNWHUEyD33MZda_G3VRaw3NONYp8CgEuUF6-eO0yImuctoxye59IE_aqKSjdXoiuCIB5Dg2m7nW-QUQppICrg14KYLrqEgVHW9bI3G_tLhZeSD_aQn1JcAxs9sr5l7fEI1QupFIhPT6gHD_ZW4ZpQgHOWL_yxD49vrjewlgtjKecPaoEcy3XiI4Fq1NMp7LRFCqJbL-YsEH5u112R8ErYO3LqDFxiYoxo1m4PnMpFB-7P83AHFCvb_zqMp9hhUJnSvr_kjIDoI9UwaSd5HE2yls6mYnv3QpD4q2Tdxhg"
+							}
+						},
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/movies/1?title=Good bad ugly",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"movies",
+								"1"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Good bad ugly"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjVjMTkzMTIzMDNjMzFkMjQ1YzAiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTQ1NywiZXhwIjoxNzQ1MDY3ODU3LCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.uDbEfhj2SMBYm_VtQJNCpRNNt0Lt6m4u488TmRDV67SKitqNWHUEyD33MZda_G3VRaw3NONYp8CgEuUF6-eO0yImuctoxye59IE_aqKSjdXoiuCIB5Dg2m7nW-QUQppICrg14KYLrqEgVHW9bI3G_tLhZeSD_aQn1JcAxs9sr5l7fEI1QupFIhPT6gHD_ZW4ZpQgHOWL_yxD49vrjewlgtjKecPaoEcy3XiI4Fq1NMp7LRFCqJbL-YsEH5u112R8ErYO3LqDFxiYoxo1m4PnMpFB-7P83AHFCvb_zqMp9hhUJnSvr_kjIDoI9UwaSd5HE2yls6mYnv3QpD4q2Tdxhg"
+							}
+						},
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors/1?age=15",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"1"
+							],
+							"query": [
+								{
+									"key": "age",
+									"value": "15"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjVjMTkzMTIzMDNjMzFkMjQ1YzAiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTQ1NywiZXhwIjoxNzQ1MDY3ODU3LCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.uDbEfhj2SMBYm_VtQJNCpRNNt0Lt6m4u488TmRDV67SKitqNWHUEyD33MZda_G3VRaw3NONYp8CgEuUF6-eO0yImuctoxye59IE_aqKSjdXoiuCIB5Dg2m7nW-QUQppICrg14KYLrqEgVHW9bI3G_tLhZeSD_aQn1JcAxs9sr5l7fEI1QupFIhPT6gHD_ZW4ZpQgHOWL_yxD49vrjewlgtjKecPaoEcy3XiI4Fq1NMp7LRFCqJbL-YsEH5u112R8ErYO3LqDFxiYoxo1m4PnMpFB-7P83AHFCvb_zqMp9hhUJnSvr_kjIDoI9UwaSd5HE2yls6mYnv3QpD4q2Tdxhg"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{host}}/actors/1",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"actors",
+								"1"
+							],
+							"query": [
+								{
+									"key": "age",
+									"value": "15",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjVjMTkzMTIzMDNjMzFkMjQ1YzAiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTQ1NywiZXhwIjoxNzQ1MDY3ODU3LCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZ2V0OmFjdG9ycyIsImdldDptb3ZpZXMiXX0.uDbEfhj2SMBYm_VtQJNCpRNNt0Lt6m4u488TmRDV67SKitqNWHUEyD33MZda_G3VRaw3NONYp8CgEuUF6-eO0yImuctoxye59IE_aqKSjdXoiuCIB5Dg2m7nW-QUQppICrg14KYLrqEgVHW9bI3G_tLhZeSD_aQn1JcAxs9sr5l7fEI1QupFIhPT6gHD_ZW4ZpQgHOWL_yxD49vrjewlgtjKecPaoEcy3XiI4Fq1NMp7LRFCqJbL-YsEH5u112R8ErYO3LqDFxiYoxo1m4PnMpFB-7P83AHFCvb_zqMp9hhUJnSvr_kjIDoI9UwaSd5HE2yls6mYnv3QpD4q2Tdxhg"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": "{{host}}/movies/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Casting Director",
+			"item": [
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjUzMWQ2ZWI0ZGI5MTdmYjY1MDciLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTU5MSwiZXhwIjoxNzQ1MDY3OTkxLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.q7zTG_eTP5jb0IpawslScaHxXAVlat_2t7AuY7RJCHmxrTPmWnPA8gR8ZcbYEdoyaI66WQ-VvRZu9xU0jWTeXDQ8FMVsUz30ot3Thd_K1RyBMqDnNLPUrWs98xku_rMbLeQLjn4u4wC7UVsI9wKHK3AgEBwgL2fFY2B5CCXoS2oSkKxvjxsejkRQf4zfl02fl_nU-Q4KvFsA4iVlzhqqbXdPkWGBAsxkebZ1kE7h5HZbYi8hrBexHk_cs0-_Wh7xKFcWac-rBfiQaTL_wKViVdUNhiC2wSRHpnIKQuYUUanKAb2LLZW7CWh8DGCWI0H55r9rJ5ABqJRGxP6o6yJtMg"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{host}}/actors"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjUzMWQ2ZWI0ZGI5MTdmYjY1MDciLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTU5MSwiZXhwIjoxNzQ1MDY3OTkxLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.q7zTG_eTP5jb0IpawslScaHxXAVlat_2t7AuY7RJCHmxrTPmWnPA8gR8ZcbYEdoyaI66WQ-VvRZu9xU0jWTeXDQ8FMVsUz30ot3Thd_K1RyBMqDnNLPUrWs98xku_rMbLeQLjn4u4wC7UVsI9wKHK3AgEBwgL2fFY2B5CCXoS2oSkKxvjxsejkRQf4zfl02fl_nU-Q4KvFsA4iVlzhqqbXdPkWGBAsxkebZ1kE7h5HZbYi8hrBexHk_cs0-_Wh7xKFcWac-rBfiQaTL_wKViVdUNhiC2wSRHpnIKQuYUUanKAb2LLZW7CWh8DGCWI0H55r9rJ5ABqJRGxP6o6yJtMg"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{host}}/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjUzMWQ2ZWI0ZGI5MTdmYjY1MDciLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTU5MSwiZXhwIjoxNzQ1MDY3OTkxLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.q7zTG_eTP5jb0IpawslScaHxXAVlat_2t7AuY7RJCHmxrTPmWnPA8gR8ZcbYEdoyaI66WQ-VvRZu9xU0jWTeXDQ8FMVsUz30ot3Thd_K1RyBMqDnNLPUrWs98xku_rMbLeQLjn4u4wC7UVsI9wKHK3AgEBwgL2fFY2B5CCXoS2oSkKxvjxsejkRQf4zfl02fl_nU-Q4KvFsA4iVlzhqqbXdPkWGBAsxkebZ1kE7h5HZbYi8hrBexHk_cs0-_Wh7xKFcWac-rBfiQaTL_wKViVdUNhiC2wSRHpnIKQuYUUanKAb2LLZW7CWh8DGCWI0H55r9rJ5ABqJRGxP6o6yJtMg"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "title",
+									"value": "\"GBU\"",
+									"type": "text"
+								},
+								{
+									"key": "release_date",
+									"value": "\"2025-04-17\"",
+									"type": "text"
+								}
+							]
+						},
+						"url": "{{host}}/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjUzMWQ2ZWI0ZGI5MTdmYjY1MDciLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTU5MSwiZXhwIjoxNzQ1MDY3OTkxLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.q7zTG_eTP5jb0IpawslScaHxXAVlat_2t7AuY7RJCHmxrTPmWnPA8gR8ZcbYEdoyaI66WQ-VvRZu9xU0jWTeXDQ8FMVsUz30ot3Thd_K1RyBMqDnNLPUrWs98xku_rMbLeQLjn4u4wC7UVsI9wKHK3AgEBwgL2fFY2B5CCXoS2oSkKxvjxsejkRQf4zfl02fl_nU-Q4KvFsA4iVlzhqqbXdPkWGBAsxkebZ1kE7h5HZbYi8hrBexHk_cs0-_Wh7xKFcWac-rBfiQaTL_wKViVdUNhiC2wSRHpnIKQuYUUanKAb2LLZW7CWh8DGCWI0H55r9rJ5ABqJRGxP6o6yJtMg"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n            \"name\": \"Jhon smith\",\r\n            \"age\": 25,\r\n            \"gender\": \"M\",\r\n            \"movie_id\":2\r\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/actors"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjUzMWQ2ZWI0ZGI5MTdmYjY1MDciLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTU5MSwiZXhwIjoxNzQ1MDY3OTkxLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.q7zTG_eTP5jb0IpawslScaHxXAVlat_2t7AuY7RJCHmxrTPmWnPA8gR8ZcbYEdoyaI66WQ-VvRZu9xU0jWTeXDQ8FMVsUz30ot3Thd_K1RyBMqDnNLPUrWs98xku_rMbLeQLjn4u4wC7UVsI9wKHK3AgEBwgL2fFY2B5CCXoS2oSkKxvjxsejkRQf4zfl02fl_nU-Q4KvFsA4iVlzhqqbXdPkWGBAsxkebZ1kE7h5HZbYi8hrBexHk_cs0-_Wh7xKFcWac-rBfiQaTL_wKViVdUNhiC2wSRHpnIKQuYUUanKAb2LLZW7CWh8DGCWI0H55r9rJ5ABqJRGxP6o6yJtMg"
+							}
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Inception\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/movies/1"
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjUzMWQ2ZWI0ZGI5MTdmYjY1MDciLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTU5MSwiZXhwIjoxNzQ1MDY3OTkxLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.q7zTG_eTP5jb0IpawslScaHxXAVlat_2t7AuY7RJCHmxrTPmWnPA8gR8ZcbYEdoyaI66WQ-VvRZu9xU0jWTeXDQ8FMVsUz30ot3Thd_K1RyBMqDnNLPUrWs98xku_rMbLeQLjn4u4wC7UVsI9wKHK3AgEBwgL2fFY2B5CCXoS2oSkKxvjxsejkRQf4zfl02fl_nU-Q4KvFsA4iVlzhqqbXdPkWGBAsxkebZ1kE7h5HZbYi8hrBexHk_cs0-_Wh7xKFcWac-rBfiQaTL_wKViVdUNhiC2wSRHpnIKQuYUUanKAb2LLZW7CWh8DGCWI0H55r9rJ5ABqJRGxP6o6yJtMg"
+							}
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"age\": 15\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/actors/1"
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjUzMWQ2ZWI0ZGI5MTdmYjY1MDciLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTU5MSwiZXhwIjoxNzQ1MDY3OTkxLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.q7zTG_eTP5jb0IpawslScaHxXAVlat_2t7AuY7RJCHmxrTPmWnPA8gR8ZcbYEdoyaI66WQ-VvRZu9xU0jWTeXDQ8FMVsUz30ot3Thd_K1RyBMqDnNLPUrWs98xku_rMbLeQLjn4u4wC7UVsI9wKHK3AgEBwgL2fFY2B5CCXoS2oSkKxvjxsejkRQf4zfl02fl_nU-Q4KvFsA4iVlzhqqbXdPkWGBAsxkebZ1kE7h5HZbYi8hrBexHk_cs0-_Wh7xKFcWac-rBfiQaTL_wKViVdUNhiC2wSRHpnIKQuYUUanKAb2LLZW7CWh8DGCWI0H55r9rJ5ABqJRGxP6o6yJtMg"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": "{{host}}/actors/1"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2N2RjMjUzMWQ2ZWI0ZGI5MTdmYjY1MDciLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTU5MSwiZXhwIjoxNzQ1MDY3OTkxLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImdldDphY3RvcnMiLCJnZXQ6bW92aWVzIiwicGF0Y2g6YWN0b3JzIiwicGF0Y2g6bW92aWVzIiwicG9zdDphY3RvcnMiXX0.q7zTG_eTP5jb0IpawslScaHxXAVlat_2t7AuY7RJCHmxrTPmWnPA8gR8ZcbYEdoyaI66WQ-VvRZu9xU0jWTeXDQ8FMVsUz30ot3Thd_K1RyBMqDnNLPUrWs98xku_rMbLeQLjn4u4wC7UVsI9wKHK3AgEBwgL2fFY2B5CCXoS2oSkKxvjxsejkRQf4zfl02fl_nU-Q4KvFsA4iVlzhqqbXdPkWGBAsxkebZ1kE7h5HZbYi8hrBexHk_cs0-_Wh7xKFcWac-rBfiQaTL_wKViVdUNhiC2wSRHpnIKQuYUUanKAb2LLZW7CWh8DGCWI0H55r9rJ5ABqJRGxP6o6yJtMg"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": "{{host}}/movies/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Casting Producer",
+			"item": [
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2ODAyMDBiYTJlYWI3ZmM2NzA2MjM3MmMiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTcyMywiZXhwIjoxNzQ1MDY4MTIzLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.CZBkfMhh-XxhVzaHs-9VJ2RBKmhG13ZJ5fQ02eVixAA8ZAGDa36nmCiukp6OCQ7UNmEGVat_LTBM6QGLo3afPf8hmRR7SJHhaSuGfB8nYEOLHHczK1ScK7B4KMixNHvZnoDjJMsH9aPV7LbGhr4QNu2hQFNI_uDkRg3DEi3se4DCrw2x4iM5PlowfvDahC0HfUnraFaN81OSFCUDdNhSw3d383DNdoJdjGyGOybuoKCadAoF6KdzVeTb1oL0KXWj9ttuhI1825Tili4byQFMfbSwWzgwEIhwYNe2o1ubiYjypDsiOTjyKoFR6RBRlrT0Zg1jPqIS8BUGdw94S1-n1g"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{host}}/actors"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2ODAyMDBiYTJlYWI3ZmM2NzA2MjM3MmMiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTcyMywiZXhwIjoxNzQ1MDY4MTIzLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.CZBkfMhh-XxhVzaHs-9VJ2RBKmhG13ZJ5fQ02eVixAA8ZAGDa36nmCiukp6OCQ7UNmEGVat_LTBM6QGLo3afPf8hmRR7SJHhaSuGfB8nYEOLHHczK1ScK7B4KMixNHvZnoDjJMsH9aPV7LbGhr4QNu2hQFNI_uDkRg3DEi3se4DCrw2x4iM5PlowfvDahC0HfUnraFaN81OSFCUDdNhSw3d383DNdoJdjGyGOybuoKCadAoF6KdzVeTb1oL0KXWj9ttuhI1825Tili4byQFMfbSwWzgwEIhwYNe2o1ubiYjypDsiOTjyKoFR6RBRlrT0Zg1jPqIS8BUGdw94S1-n1g"
+							}
+						},
+						"method": "GET",
+						"header": [],
+						"url": "{{host}}/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2ODAyMDBiYTJlYWI3ZmM2NzA2MjM3MmMiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTcyMywiZXhwIjoxNzQ1MDY4MTIzLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.CZBkfMhh-XxhVzaHs-9VJ2RBKmhG13ZJ5fQ02eVixAA8ZAGDa36nmCiukp6OCQ7UNmEGVat_LTBM6QGLo3afPf8hmRR7SJHhaSuGfB8nYEOLHHczK1ScK7B4KMixNHvZnoDjJMsH9aPV7LbGhr4QNu2hQFNI_uDkRg3DEi3se4DCrw2x4iM5PlowfvDahC0HfUnraFaN81OSFCUDdNhSw3d383DNdoJdjGyGOybuoKCadAoF6KdzVeTb1oL0KXWj9ttuhI1825Tili4byQFMfbSwWzgwEIhwYNe2o1ubiYjypDsiOTjyKoFR6RBRlrT0Zg1jPqIS8BUGdw94S1-n1g"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Good Bad Ugly\",\r\n    \"release_date\":\"2025-04-12\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/movies"
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2ODAyMDBiYTJlYWI3ZmM2NzA2MjM3MmMiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTcyMywiZXhwIjoxNzQ1MDY4MTIzLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.CZBkfMhh-XxhVzaHs-9VJ2RBKmhG13ZJ5fQ02eVixAA8ZAGDa36nmCiukp6OCQ7UNmEGVat_LTBM6QGLo3afPf8hmRR7SJHhaSuGfB8nYEOLHHczK1ScK7B4KMixNHvZnoDjJMsH9aPV7LbGhr4QNu2hQFNI_uDkRg3DEi3se4DCrw2x4iM5PlowfvDahC0HfUnraFaN81OSFCUDdNhSw3d383DNdoJdjGyGOybuoKCadAoF6KdzVeTb1oL0KXWj9ttuhI1825Tili4byQFMfbSwWzgwEIhwYNe2o1ubiYjypDsiOTjyKoFR6RBRlrT0Zg1jPqIS8BUGdw94S1-n1g"
+							}
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n            \"name\": \"Ak\",\r\n            \"age\": 50,\r\n            \"gender\": \"M\",\r\n            \"movie_id\":4\r\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/actors"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2ODAyMDBiYTJlYWI3ZmM2NzA2MjM3MmMiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTcyMywiZXhwIjoxNzQ1MDY4MTIzLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.CZBkfMhh-XxhVzaHs-9VJ2RBKmhG13ZJ5fQ02eVixAA8ZAGDa36nmCiukp6OCQ7UNmEGVat_LTBM6QGLo3afPf8hmRR7SJHhaSuGfB8nYEOLHHczK1ScK7B4KMixNHvZnoDjJMsH9aPV7LbGhr4QNu2hQFNI_uDkRg3DEi3se4DCrw2x4iM5PlowfvDahC0HfUnraFaN81OSFCUDdNhSw3d383DNdoJdjGyGOybuoKCadAoF6KdzVeTb1oL0KXWj9ttuhI1825Tili4byQFMfbSwWzgwEIhwYNe2o1ubiYjypDsiOTjyKoFR6RBRlrT0Zg1jPqIS8BUGdw94S1-n1g"
+							}
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\" : \"Inception 2\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/movies/1"
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2ODAyMDBiYTJlYWI3ZmM2NzA2MjM3MmMiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTcyMywiZXhwIjoxNzQ1MDY4MTIzLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.CZBkfMhh-XxhVzaHs-9VJ2RBKmhG13ZJ5fQ02eVixAA8ZAGDa36nmCiukp6OCQ7UNmEGVat_LTBM6QGLo3afPf8hmRR7SJHhaSuGfB8nYEOLHHczK1ScK7B4KMixNHvZnoDjJMsH9aPV7LbGhr4QNu2hQFNI_uDkRg3DEi3se4DCrw2x4iM5PlowfvDahC0HfUnraFaN81OSFCUDdNhSw3d383DNdoJdjGyGOybuoKCadAoF6KdzVeTb1oL0KXWj9ttuhI1825Tili4byQFMfbSwWzgwEIhwYNe2o1ubiYjypDsiOTjyKoFR6RBRlrT0Zg1jPqIS8BUGdw94S1-n1g"
+							}
+						},
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"age\": 50\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "{{host}}/actors/2"
+					},
+					"response": []
+				},
+				{
+					"name": "actors",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2ODAyMDBiYTJlYWI3ZmM2NzA2MjM3MmMiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTcyMywiZXhwIjoxNzQ1MDY4MTIzLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.CZBkfMhh-XxhVzaHs-9VJ2RBKmhG13ZJ5fQ02eVixAA8ZAGDa36nmCiukp6OCQ7UNmEGVat_LTBM6QGLo3afPf8hmRR7SJHhaSuGfB8nYEOLHHczK1ScK7B4KMixNHvZnoDjJMsH9aPV7LbGhr4QNu2hQFNI_uDkRg3DEi3se4DCrw2x4iM5PlowfvDahC0HfUnraFaN81OSFCUDdNhSw3d383DNdoJdjGyGOybuoKCadAoF6KdzVeTb1oL0KXWj9ttuhI1825Tili4byQFMfbSwWzgwEIhwYNe2o1ubiYjypDsiOTjyKoFR6RBRlrT0Zg1jPqIS8BUGdw94S1-n1g"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": "{{host}}/actors/2"
+					},
+					"response": []
+				},
+				{
+					"name": "movies",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": {
+								"token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Il9VTU13b1V6Q2lqLXpweElwbk00YyJ9.eyJpc3MiOiJodHRwczovL2Rldi10N20xbzVyeHRkcXRkdHdiLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2ODAyMDBiYTJlYWI3ZmM2NzA2MjM3MmMiLCJhdWQiOiJjYXBzdG9uZSIsImlhdCI6MTc0NDk4MTcyMywiZXhwIjoxNzQ1MDY4MTIzLCJzY29wZSI6IiIsImF6cCI6IkNJYWJ6Z3JNMmRJa3RhZXRQYW9MSW1JeDFPcEJhM3VFIiwicGVybWlzc2lvbnMiOlsiZGVsZXRlOmFjdG9ycyIsImRlbGV0ZTptb3ZpZXMiLCJnZXQ6YWN0b3JzIiwiZ2V0Om1vdmllcyIsInBhdGNoOmFjdG9ycyIsInBhdGNoOm1vdmllcyIsInBvc3Q6YWN0b3JzIiwicG9zdDptb3ZpZXMiXX0.CZBkfMhh-XxhVzaHs-9VJ2RBKmhG13ZJ5fQ02eVixAA8ZAGDa36nmCiukp6OCQ7UNmEGVat_LTBM6QGLo3afPf8hmRR7SJHhaSuGfB8nYEOLHHczK1ScK7B4KMixNHvZnoDjJMsH9aPV7LbGhr4QNu2hQFNI_uDkRg3DEi3se4DCrw2x4iM5PlowfvDahC0HfUnraFaN81OSFCUDdNhSw3d383DNdoJdjGyGOybuoKCadAoF6KdzVeTb1oL0KXWj9ttuhI1825Tili4byQFMfbSwWzgwEIhwYNe2o1ubiYjypDsiOTjyKoFR6RBRlrT0Zg1jPqIS8BUGdw94S1-n1g"
+							}
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": "{{host}}/movies/4"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "",
+			"type": "default"
+		}
+	]
+}
